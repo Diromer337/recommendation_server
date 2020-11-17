@@ -26,6 +26,10 @@ GET /?sku=J9cMivKBtJ&power=1
 {"rec": ["5YBG6Gikju", "2yglPxOupM", "QRke1nzPrQ", "ZboAsFCjLw", "qyc9QV0DS8"]}
 ```
 ### Время ответа на запрос
+Не кэшированный запрос
+![test](/images/no_cache.png)
+Кэшированный запрос
+![test](/images/cache.png)
 ### CSV файл
 Для сортировки файла раскоментируйте строчку
 ```

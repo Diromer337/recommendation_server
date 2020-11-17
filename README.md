@@ -31,6 +31,12 @@ GET /?sku=J9cMivKBtJ&power=1
 Кэшированный запрос
 ![test](/images/cache.png)
 ### CSV файл
+Структура файла:
+```
+sku1,recom1,0.1
+sku2,recom2,0.2
+...
+```
 Для сортировки файла раскоментируйте строчку
 ```
 # os.system('LC_ALL=C sort {file} > {file}'.format(file=self.file))

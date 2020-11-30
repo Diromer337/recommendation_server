@@ -7,7 +7,7 @@ class Finder:
     def __init__(self, file, delimiter=','):
         self.file = file
         # раскоментируйте для сортировки файла
-        # os.system('LC_ALL=C sort {file} > {file}'.format(file=self.file))
+        # os.system('LC_ALL=C sort -o {file} {file}'.format(file=self.file))
         self.n_byte = os.path.getsize(self.file)
         self.n_line = int(subprocess.check_output(['wc', file]).decode().split()[0])
         self.step = self.n_byte // self.n_line

@@ -39,7 +39,7 @@ sku2,recom2,0.2
 ```
 Для сортировки файла раскоментируйте строчку
 ```
-# os.system('LC_ALL=C sort {file} > {file}'.format(file=self.file))
+# os.system('LC_ALL=C sort -o {file} {file}'.format(file=self.file))
 ```
 Отсортированный файл: https://drive.google.com/file/d/1RsWiurNGjYExml4RRF5W4yN0T-1iVZwr/view?usp=sharing
 ### Масштабирование сервиса
